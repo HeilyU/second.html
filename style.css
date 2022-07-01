@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: rgb(69, 23, 129);
+}
+h1 {
+  color: rgb(98, 222, 226);
+}
+p {
+  color: rgb(106, 230, 199);
+}
+.box {
+  border-style: solid;
+  border-width: 5;
+  border-color: lightskyblue;
+  background-color: rgb(157, 104, 226);
+}
+.image {
+  width: 100px;
+  height: 100px;
+}
+.columns {
+  display: flex;
+}
+.header {
+  width: 100%;
+  background-color: rgb(157, 104, 226);
+  text-align: center;
+}
+.header > a {
+  padding: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
